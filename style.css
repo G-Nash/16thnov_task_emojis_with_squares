@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#heading{
+    /* text-align: center; */
+    text-decoration: underline;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    /* align-self: center; */
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#box1, #box2, #box3, #box4{
+    border: solid white;
+    height: 50px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+#box1:hover, #box2:hover, #box3:hover, #box4:hover{
+    background-color: aqua;
+}
+
+#stareyes, #rotatingeyes, #rainbowpuke, #sick {
+    margin-right: auto;
+}
+
+#stareyes:hover, #rotatingeyes:hover, #rainbowpuke:hover, #sick:hover{
+    /* margin-top: -30px; */
+}
+
+#stareyes{
+    margin-left: 15px;
+}
+
+#rotatingeyes{
+    margin-left: 165px;
+}
+
+#box2{
+    margin-left: 150px;
+}
+
+#rainbowpuke{
+    margin-left: 315px;
+}
+
+#box3{
+    margin-left: 300px;
+}
+
+#sick{
+    margin-left: 465px;
+}
+
+#box4{
+    margin-left: 450px;
+}
